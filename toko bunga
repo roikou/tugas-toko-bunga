@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            background-color: maroon;
+            color: white;
+            box-shadow: 5px 5px 5px lightblue;
+            text-align: center;
+            padding: 10px
+        }
+        h4 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
+        h5 {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            text-align: center;
+            
+        }
+        .card-Bouqets {
+            border-radius: 10px;
+            box-shadow: 8px 5px 10px orangered;
+        }
+        .card-Bouqets img {
+            width: 200px;
+            border-radius: 10px;
+
+
+        }
+        .card-container {
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        table, tr, th, td {
+            border: 2px solid red;
+            border-collapse: collapse;
+
+
+        }
+        .flower-table {
+            display: flex;
+            justify-content: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* table {
+            width: 400px;
+        } */
+
+        th {
+            height: 70px;
+            background-color: yellow;
+        }
+
+        td {
+            text-align: center;
+            width: 250px;
+        }
+
+        td:hover {
+            background-color: blueviolet;
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+        } 
+
+
+        
+        
+
+    </style>
+    <title>Florist Shop</title>
+</head>
+<body>
+    <h1>Florist Shop</h1>
+
+    <h3>We Sell Bouqets with Love</h3>
+    
+    <h3>Best Seller</h3>
+    <h5>"Rona Bouqets"</h5>
+    <img src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets">
+    <p><i>Flower are music of the ground. From earth's lips spoken without sound.</i>
+    </p>
+    <p><i> -Edvin Curon- </i></p>
+
+    <h3>Our Products</h3>
+    <h5>Custom Bouqets, Make By Order</h5>
+
+
+    <div class="card-container">
+        <div class="card-Bouqets">
+            <img src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets">
+            <h4>Full Black Bouqets</h4>
+            <p>IDR 10.000</p>
+            <p>For Wedding Present</p>
+        </div>
+
+        <div class="card-Bouqets">
+            <img src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets">
+            <h4>Full Black Bouqets</h4>
+            <p>IDR 10.000</p>
+            <p>For Wedding Present</p>
+        </div>
+
+        <div class="card-Bouqets">
+            <img src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets">
+            <h4>Full Black Bouqets</h4>
+            <p>IDR 10.000</p>
+            <p>For Wedding Present</p>
+        </div>
+
+        <div class="card-Bouqets">
+            <img src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets">
+            <h4>Full Black Bouqets</h4>
+            <p>IDR 10.000</p>
+            <p>For Wedding Present</p>
+        </div>
+    </div>
+
+    <section class="available-flower">
+        <h2>available-flower</h2>
+        <div class="flower-table">
+            <table>
+                <tr>
+                    <th>name</th>
+                    <th>color</th>
+                    <th>price</th>
+                    <th>image</th>
+                </tr>
+                <tr>
+                    <td>matahri flower</td>
+                    <td>orange</td>
+                    <td>$150</td>
+                    <td><img width="150px" src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets"></td>
+                </tr>
+                <tr>
+                    <td>mawar flower</td>
+                    <td>red</td>
+                    <td>$999</td>
+                    <td><img width="150px" src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets"></td>
+                </tr>
+                <tr>
+                    <td>melati flower</td>
+                    <td>white</td>
+                    <td>$10</td>
+                    <td><img width="150px" src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets"></td>
+                </tr>
+                <tr>
+                    <td>anggrek flower</td>
+                    <td>orange</td>
+                    <td>$0,5</td>
+                    <td><img width="150px" src="https://th.bing.com/th/id/OIP.lhMetXwhL_P0nCOQZyQXcAHaJ3?rs=1&pid=ImgDetMain" alt="Rona Bouqets"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+</body>
+</html>
